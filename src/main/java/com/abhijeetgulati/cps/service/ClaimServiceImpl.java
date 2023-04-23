@@ -52,7 +52,7 @@ public class ClaimServiceImpl implements ClaimService {
                 log.info("{}", multiPartFile);
 //				log.info("{}", claim.getImageData());
 
-                String fileName = multiPartFile.getOriginalFilename();
+                String fileName = multiPartFile.getOriginalFilename(); //storing the name of the image
 
                 fileName = fileName.substring(fileName.length() - 4, fileName.length());//because we just want the extension
 
