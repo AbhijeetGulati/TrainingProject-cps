@@ -5,7 +5,8 @@
 .banner{
     width:100%;
     background-size:cover;
-    background-image:url(../image/background.png) ;
+    background-image:url(../image/background.png);
+    height:100%;
 }
 
 .my-btn{

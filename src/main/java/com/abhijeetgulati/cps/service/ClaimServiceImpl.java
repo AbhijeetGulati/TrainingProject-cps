@@ -57,7 +57,7 @@ public class ClaimServiceImpl implements ClaimService {
                 fileName = fileName.substring(fileName.length() - 4, fileName.length());//because we just want the extension
 
                 String base64EncodedImageData = "";
-
+                 //only jpg,png and jpeg formats will be supported
                 fileName = fileName.toLowerCase();
                 if (fileName.contains("jpg") || fileName.contains("jpeg")) {
                     base64EncodedImageData = "data:image/jpeg;base64,";
@@ -83,7 +83,7 @@ public class ClaimServiceImpl implements ClaimService {
         }
 
 
-        log.info("{}", claim);
+        //log.info("{}", claim);
         claimRepo.save(claim);//all the data regarding the claim gone to database
     }
 
