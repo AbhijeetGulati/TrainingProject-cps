@@ -39,6 +39,7 @@ public class UserController {
         } else {
             // wrong claim number
             return "error";
+            //if you enter invalid or wrong Claim Number or wrong DL Number error page will pop up
         }
     }
 

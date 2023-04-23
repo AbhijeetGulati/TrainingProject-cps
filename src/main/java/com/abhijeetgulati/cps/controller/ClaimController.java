@@ -37,6 +37,7 @@ public class ClaimController {
         claimService.registerClaim(claim);//saving all the details to the database
 
         return "details";//for details.html
+        //to show all the details regarding our Claim
     }
 
 }
