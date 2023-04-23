@@ -2,6 +2,18 @@
       background:#009688!important;
 }
 
+.options {
+  border: 1px solid #e5e5e5;
+  padding: 10px;
+}
+
+select {
+  font-size: 14px;
+  border: none;
+  width: 100%;
+  background: white;
+}
+
 .banner{
     width:100%;
     background-size:cover;
