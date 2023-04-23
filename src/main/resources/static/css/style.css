@@ -1,0 +1,21 @@
+.bg-primary{
+      background:#009688!important;
+}
+
+.banner{
+    width:100%;
+    background-size:cover;
+    background-image:url(../image/background.png) ;
+}
+
+.my-btn{
+  background-color: #199319;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+.myphoto{
+   width:300px;
+   height:300px;
+}
