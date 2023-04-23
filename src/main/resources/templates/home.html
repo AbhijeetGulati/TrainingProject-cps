@@ -13,23 +13,48 @@
 </head>
 <body>
 <section class="banner">
-    <div class="text-center">
+    <div class="myDiv">
         <h1 class="font-weight-bold text-center">WELCOME</h1>
     </div>
-    <br>
-    <div class="text-center">
+
+    <!--
+    <div class="detailDiv">
         <h1>New users enter your claim details here:</h1>
     </div>
-    <br>
+    <br>  -->
+    <!--
     <div class="text-center"><a class="my-btn" th:href="@{/register}">Register</a></div>
     <br>
     <div class="text-center">
         <h1>Registered users login:</h1>
     </div>
     <br>
-    <!--<div><button type="button" onclick="@{/login}" class="btn btn-dark">Login</button></div>-->
+
     <div class="text-center"><a class="my-btn" th:href="@{/login}">Login</a></div>
-    <br>
+    <br>-->
+
+        <div class="col-sm-12 text-center">
+            <div class="card ">
+                <div class="card-body text-center" >
+                    <h4 class="card-title">New users enter your claim details here:</h4>
+
+                    <a class="btn btn-primary" th:href="@{/register}">Register</a>
+                    <h4 class="card-title">Registered users login:</h4>
+
+                    <a class="btn btn-primary" th:href="@{/login}">Login</a>
+                </div>
+            </div>
+        </div>
+
+<!--
+            <div class="col-sm-4 text-center">
+                <div class="card">
+                    <div class="card-body text-center">
+
+                    </div>
+                </div>
+            </div>
+    </div>-->
 </section>
 </body>
 </html>
